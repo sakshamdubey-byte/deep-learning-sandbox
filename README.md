@@ -13,6 +13,7 @@ Welcome to my deep learning repository! This project tracks my progress from mas
 | 🎗️ **03. Diagnostics** | `breast_cancer_detection/` | Implementing and scaling breast cancer detection models from baseline networks to advanced architectures in PyTorch. |
 | 🏦 **04. Churn Prediction** | `ann.py` | Building an Artificial Neural Network (ANN) in Keras/TensorFlow to predict bank customer retention. |
 | ⚙️ **05. Tuning** | `hyperparameter_tuning.ipynb` | Systematically tuning structural parameters and optimizers to maximize Keras model performance. |
+| 🐱 **06. Augmentation** | `single_cat_dog_prediction.ipynb` | Single-image data augmentation pipeline using PyTorch transforms to expand limited image sets. |
 
 ---
 
@@ -54,6 +55,17 @@ A dedicated experimentation suite (`hyperparameter_tuning.ipynb`) designed to sy
 ### Tuning Overview
 * **Search Strategy:** Configured for evaluating network topology structural changes, optimal batch limits, and training epoch caps.
 * **Algorithmic Benchmarking:** Evaluates convergence efficiency across alternative optimization algorithms (e.g., Adam vs. Adamax) to maximize test-set precision, control overfitting, and minimize validation loss.
+
+---
+
+## 🔬 Feature Project 4: Single-Image Data Augmentation for Cat and Dog Images
+
+A computer vision experimentation pipeline designed to apply robust data augmentation techniques on individual images to expand small datasets and improve model generalization.
+
+### Pipeline Breakdown
+* **Targeted Augmentation:** Processes single cat or dog images through a series of geometric and photometric transformations (e.g., rotation, scaling, flipping, brightness adjustments).
+* **Framework Integration:** Built using PyTorch (`torchvision.transforms`) to dynamically generate varied training samples on the fly.
+* **Objective:** Prevent overfitting in binary classification models by simulating diverse environmental conditions from a limited set of source images.
 
 ---
 
