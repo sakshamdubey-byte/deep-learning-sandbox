@@ -16,6 +16,7 @@ Welcome to my deep learning repository! This project tracks my progress from mas
 | 🐱 **06. Augmentation** | `single_cat_dog_prediction.ipynb` | Single-image data augmentation pipeline using PyTorch transforms to expand limited image sets. |
 | 🧠 ** 07. Embeddings ** | `word_embedding_using_embedding_layer_in_keras/` | Implementing and training custom word embeddings using Keras's Embedding Layer for NLP tasks. |
 | 📰 *08. Fake News* | FakeNewsClassifierUsingLSTM.ipynb | Building a sequential NLP pipeline using Long Short-Term Memory (LSTM) networks to classify fake vs. real news articles. |
+| 🔤 *09. NLP Pipeline* | basic_nlp_pipeline.ipynb | Implementing a foundational Natural Language Processing (NLP) pipeline covering text preprocessing, tokenization, and baseline text classification. |
 
 ## 🔬 Feature Project 1: Breast Cancer Detection Pipeline (PyTorch)
 
