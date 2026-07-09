@@ -17,7 +17,10 @@ Welcome to my deep learning repository! This project tracks my progress from mas
 | 🧠 ** 07. Embeddings ** | `word_embedding_using_embedding_layer_in_keras/` | Implementing and training custom word embeddings using Keras's Embedding Layer for NLP tasks. |
 | 📰 *08. Fake News* | FakeNewsClassifierUsingLSTM.ipynb | Building a sequential NLP pipeline using Long Short-Term Memory (LSTM) networks to classify fake vs. real news articles. |
 | 🔤 *09. NLP Pipeline* | basic_nlp_pipeline.ipynb | Implementing a foundational Natural Language Processing (NLP) pipeline covering text preprocessing, tokenization, and baseline text classification. |
+10. **Advanced Tokenization (Basic vs. spaCy)**
+    * **Description:** Breaks down raw text paragraphs into individual words or clean sentences. It compares the limitations of standard Python `.split()` methods (which leave punctuation attached or miss sentence boundaries) against robust, industry-standard NLP pipelines like `spaCy` to intelligently handle complex edge cases like abbreviations (`Ph.D`), emails, and currencies.
 
+    
 ## 🔬 Feature Project 1: Breast Cancer Detection Pipeline (PyTorch)
 
 This module focuses on evaluating and scaling machine learning models for automated breast cancer detection, transitioning from a basic baseline to state-of-the-art medical imaging architectures.
